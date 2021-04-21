@@ -3,6 +3,8 @@ spring:
     name: demo
   main:
     allow-bean-definition-overriding: true
-  jpa:
-    base:
-      packages: com.example
+
+server:
+  servlet:
+    context-path: /demo
+  port: 8080
